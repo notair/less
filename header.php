@@ -1,9 +1,7 @@
 <?php
 /**
- * The Header for our theme
- *
- * Displays all of the <head> section and everything up till <div id="main">
- *
+ * The Header for our theme *
+ * Displays all of the <head> section and everything up till <div id="main"> *
  * @package WordPress
  * @subpackage less
  * @since less 1.0
