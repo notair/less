@@ -197,7 +197,23 @@ h6 {
 	box-sizing:border-box;	
 }
 article{
-	margin-bottom: 30px;
+	margin-bottom: 60px;
+	border-bottom: solid 1px;
+	padding-bottom: 30px;
+}
+
+.loop-pagination{
+	padding: 10px 0;
+}
+
+.loop-pagination span{
+	border: solid 1px;
+	padding: 5px 10px;
+}
+
+.loop-pagination a{
+	border: solid 1px;
+	padding: 5px 10px;
 }
 
 #secondary{
