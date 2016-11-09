@@ -55,7 +55,9 @@
 			<nav id="primary-navigation" class="site-navigation primary-navigation" role="navigation">
 <!--			<button class="menu-toggle"><?php _e( 'Primary Menu', 'twentyfourteen' ); ?></button>
 				<a class="screen-reader-text skip-link" href="#content"><?php _e( 'Skip to content', 'twentyfourteen' ); ?></a>
--->				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu', 'menu_id' => 'primary-menu' ) ); ?>
+-->				<?php   //wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu', 'menu_id' => 'primary-menu' ) ); 
+						wp_list_categories('orderby=ID&order=ASC&depth=1&hide_empty=0&title_li=');
+				?>
 			</nav>
 
 

@@ -86,8 +86,8 @@ h4,
 h5,
 h6 {
 	clear: both;
-	font-weight: 700;
-	margin: 36px 0 12px;
+	font-weight: 500;
+	margin: 15px 0 12px;
 }
 
 h1 {
@@ -141,7 +141,7 @@ h6 {
 }
 .site-title {
     float: left;
-    font-size: 18px;
+    font-size: 1.5em;
     font-weight: 700;
     line-height: 48px;
     margin: 0;
@@ -209,6 +209,7 @@ article{
 .loop-pagination span{
 	border: solid 1px;
 	padding: 5px 10px;
+	background-color:#aaa;
 }
 
 .loop-pagination a{
@@ -218,8 +219,18 @@ article{
 
 #secondary{
 	width: 300px;
-	border: solid 1px;
+	border: solid 0px;
 	float: right;
+	font-size:14px;
+}
+
+.widget-title{
+	border-bottom:1px solid;
+	line-height:2em;
+}
+#secondary li{
+	list-style:none;
+	line-height:1.5em;
 }
 #colophon{
 	width: 100%;	
@@ -229,16 +240,40 @@ article{
 	background-color: #F2F2F2;
 	clear: both;
 	display: block;
+	font-size:0.9em;
 }
 
 .site-info{
 	width: 1024px;
 	height: 100%;
 	margin: 0 auto;
-	padding: 15px 0px;
+	padding: 10px 0px;
 	border: solid 0px;	 
 	text-align: center;	
 }
 .site-info a{
 	line-height: 1.5em;
+}
+
+footer ul{
+	list-style: outside none none;
+    margin: 0;
+}
+
+footer li {
+    border: 0 none;
+    display: inline-block;    
+    padding 3px 0px;
+    position: relative;
+}
+
+footer li+li {
+	border-left:1px solid #777;
+}
+footer li a{
+	padding:0 20px;
+}
+
+.footer-info{
+	padding: 6px 0 0px;
 }
