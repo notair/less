@@ -19,14 +19,14 @@
 -->   
     <div class="widget widget_recent_entries widget-widget_recent_entries">
       <div class="widget-wrap widget-inside">
-        <h3 class="widget-title">最新文章</h3>
+        <h3 class="widget-title">随机文章</h3>
           <ul><?php wp_get_archives('type=postbypost&limit=15'); ?></ul>
       </div>
     </div>
     
     <div class="widget widget_tag_cloud widget-widget_tag_cloud">
       <div class="widget-wrap widget-inside">
-        <h3 class="widget-title">关注热点</h3>
+        <h3 class="widget-title">近期评论</h3>
         <?php wp_tag_cloud('smallest=10&largest=30&number=30&unit=px&format=flat&orderby=name'); ?>
       </div>
     </div>

@@ -61,7 +61,7 @@ body {
 }
 
 a {
-	color: #71402F;
+	color: #0063DC;
 	text-decoration: none;
 }
 
@@ -76,7 +76,7 @@ a:active {
 
 a:active,
 a:hover {
-	color: #D48E74;
+	color: #000;
 }
 
 h1,
