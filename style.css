@@ -201,20 +201,25 @@ article{
 	border-bottom: solid 1px;
 	padding-bottom: 30px;
 }
-
+.entry-meta a{
+	padding: 2px 15px;
+	border-radius: 15px;
+	border: solid 1px;
+}
 .loop-pagination{
 	padding: 10px 0;
 }
 
-.loop-pagination span{
+.loop-pagination .current{	
+	background-color:#F2F2F2;
+}
+.loop-pagination .page-numbers{
 	border: solid 1px;
 	padding: 5px 10px;
-	background-color:#aaa;
 }
 
-.loop-pagination a{
-	border: solid 1px;
-	padding: 5px 10px;
+.loop-pagination a:hover{
+	background-color:#F2F2F2;
 }
 
 #secondary{
@@ -240,7 +245,7 @@ article{
 	background-color: #F2F2F2;
 	clear: both;
 	display: block;
-	font-size:0.9em;
+	font-size:0.95em;
 }
 
 .site-info{
@@ -253,6 +258,7 @@ article{
 }
 .site-info a{
 	line-height: 1.5em;
+	color: #000;
 }
 
 footer ul{
@@ -276,4 +282,42 @@ footer li a{
 
 .footer-info{
 	padding: 6px 0 0px;
+}
+
+@media screen and (max-width:960px){
+	.header-main{
+		width: 90%;
+		margin: 0 auto;
+		border: solid 0px;
+		padding: 0px 0px;
+	}
+	#masthead{
+		position: relative;
+	}
+	#search-container{
+		display: none;
+	}
+	#main{
+	width: 90%;
+	margin: 50px auto 20px;
+	border: solid 0px;
+	display: table;
+	padding: 0px;
+	}
+	#primary{
+	width: 100%;
+	border: solid 0px;
+	float: left;
+	padding: 0px 0px;
+	box-sizing:border-box;	
+	}
+	#secondary{
+	display: none;
+	}
+	.site-info{
+	width: 90%;		
+	}
+	.small-links{
+		display: none;
+	}
 }
